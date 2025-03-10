@@ -33,7 +33,10 @@ namespace WpfApp1.ViewModels
         {
             get => _connection;
             set => Set(ref _connection, value);            
-        }    
+        }
+
+
+        private string _Status;
 
         private Table _selected_table;
         public Table Selected_table {
@@ -55,9 +58,6 @@ namespace WpfApp1.ViewModels
             MessageBox.Show("load command");            
         }
         
-        
-
-
         private RelayCommand connect2docs;
 
         public ICommand Connect2docs

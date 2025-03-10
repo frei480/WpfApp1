@@ -7,7 +7,6 @@ using System.Windows;
 
 using TFlex.DOCs.Model;
 using TFlex.DOCs.Model.Classes;
-using TFlex.DOCs.Model.References.Units;
 using TFlex.PdmFramework.Resolve;
 
 namespace WpfApp1
